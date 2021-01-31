@@ -1,10 +1,11 @@
+import os
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
+    BOT_TOKEN = os.environ.get('BOT_TOKEN')
+    APP_ID = os.environ.get('APP_ID')
+    API_HASH = os.environ.get('API_HASH')
+    DATABASE_URL = os.environ.get('DATABASE_URL')
+    SUDO_USERS = os.environ.get('SUDO_USERS') # Sepearted by space.
+    SUPPORT_CHAT_LINK = "t.me/sharmaabhishek1"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
 
