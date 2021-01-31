@@ -5,7 +5,7 @@ class config:
     API_HASH = os.environ.get('API_HASH')
     DATABASE_URL = os.environ.get('DATABASE_URL')
     SUDO_USERS = os.environ.get('SUDO_USERS') # Sepearted by space.
-    SUPPORT_CHAT_LINK = "t.me/sharmaabhishek1"
+    SUPPORT_CHAT_LINK = "t.me"
     DOWNLOAD_DIRECTORY = "./downloads/"
 
 
