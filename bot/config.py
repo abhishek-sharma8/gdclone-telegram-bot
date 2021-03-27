@@ -7,6 +7,8 @@ class config:
     SUDO_USERS = os.environ.get('SUDO_USERS') # Sepearted by space.
     SUPPORT_CHAT_LINK = "t.me"
     DOWNLOAD_DIRECTORY = "./downloads/"
+    G_DRIVE_CLIENT_ID = ""
+    G_DRIVE_CLIENT_SECRET = ""
 
 
 class BotCommands:
